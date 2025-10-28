@@ -1,0 +1,70 @@
+# 专为 PyCharm IDE 设置
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 专为 Python 设置
+# 字节码缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 打包文件
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+# 强烈建议忽略！每个人都应该自己创建虚拟环境
+venv/
+env/
+ENV/
+
+# 环境变量文件
+.env
+.venv
+env/
+venv/
+
+# 日志文件
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
